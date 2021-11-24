@@ -40,8 +40,12 @@ describe('Tickets', () => {
   });
 
   it.only('alerts on invalid email', () => {
-    cy.get('#email').type('teste-email.com');
+    cy.get('#email').as('email').type('teste-email.com');
 
-    cy.get('#email.invalid').should('exist');
+    cy.get('#email.invalid').as('invalidEmail').should('exist');
+
+    cy.get('@email').clear().type('teste@gmail.com');
+
+    cy.get('#email.invalid').should('not.exist');
   });
 });
