@@ -1,0 +1,20 @@
+{
+  "name": "basico",
+  "version": "1.0.0",
+  "description": "\u001b[A\u001b[Bcypress Básico\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "test",
+    "automation",
+    "e2e"
+  ],
+  "author": "Rafael Almeida Silva",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^9.1.0"
+  }
+}
