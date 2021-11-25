@@ -6,7 +6,7 @@ npm install cypress --dev
 
 # init cypress
 
-npm cypress open
+npx cypress open
 
 # Aplicação utilizada para os testes
 

@@ -1,4 +1,4 @@
 .DS_Store
 cypss/screenshots/
-videos/
+cypress/videos/
 node_modules/
