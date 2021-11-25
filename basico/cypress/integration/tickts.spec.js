@@ -80,7 +80,7 @@ describe('Tickets', () => {
     cy.get('@submitButton').should('be.disabled');
   });
 
-  it.only('fills mandatory dields using support command', () => {
+  it('fills mandatory dields using support command', () => {
     const customer = {
       firstName: 'John',
       lastName: 'Doe',
