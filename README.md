@@ -1,5 +1,7 @@
 # curso-cypress
 
+[![pipeline status](https://gitlab.com/rafalmeidas/curso-cypress-basico/badges/main/pipeline.svg)](https://gitlab.com/rafalmeidas/curso-cypress-basico/-/commits/main)
+
 # install Cypress
 
 npm install cypress --dev
